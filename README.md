@@ -66,6 +66,6 @@ python score.py
 
 
 # Reference 
-[ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
+Dataset [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 
-[py-RFCN-priv](https://github.com/zhzixuan/py-RFCN-priv)
+Research works of BUPT-PRIV Lab [caffe-model](https://github.com/soeaver/caffe-model)
