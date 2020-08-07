@@ -1,10 +1,8 @@
 # File Structure
 ## Code
-prototxt files (network structure)
+Prototxt files (network structure)
 
-scripts when training and testing
-
-scripts when applying in scenes of reality
+Scripts (training and testing)
 
 Hit: The file_root of all scripts needs to be modified to real file directory.
 
@@ -12,19 +10,22 @@ Hit: The file_root of all scripts needs to be modified to real file directory.
 
 There are some trained model (caffemodel) with parameters and  saved predicted segmentation (.png).
 
-Due to limited size of uploaded file, I uploaded the required caffemodel to the Baidu web disk, which can be downloaded from [here] (https://pan.baidu.com/s/1zsG-Mos7nzcg3kL2dF1sig), password is ajqj.  
+Due to limited size of uploaded file, I uploaded the required caffemodel to the Baidu web disk, which can be downloaded from [here](https://pan.baidu.com/s/1zsG-Mos7nzcg3kL2dF1sig), password is ajqj.  
 
 ## Demo
-A short demo video. Please click [here] (https://pan.baidu.com/s/1NbxCDoiXTRO-sKe-bJZUAw) to download, password is rf2m. 
+A short demo video. Please click [here](https://pan.baidu.com/s/1NbxCDoiXTRO-sKe-bJZUAw) to download, password is rf2m. 
 
 # Environment
 The code is developed or applied under the following configurations.
 
+
 **Hardware**
 2-8 GPUs (with at least 12G GPU memories)
 
+
 **Software**
 Ubuntu `16.04.3 LTS`, CUDA `8.0`, caffe, python, and OpenCV
+
 
 **Dataset**
 ADE20K 
@@ -36,7 +37,7 @@ Before training, please prepare model structure (.prototxt), hyper parameter set
 
 Makesure the names of all training set image are including in the ade_sceneparsing_train_im2cate.txt.
 
-Prepare the ImageNet-pre-trained caffemodel when fine-tuning. Download [here] (https://pan.baidu.com/s/1CNCAEG4iwsXFUq0eoXsiyQ), password is 8m8q.
+Prepare the ImageNet-pre-trained caffemodel when fine-tuning. Download [here](https://pan.baidu.com/s/1CNCAEG4iwsXFUq0eoXsiyQ), password is 8m8q.
 
 Enter the command in the terminal to train a model:
 ```sh
@@ -65,5 +66,6 @@ python score.py
 
 
 # Reference 
-[ADE20K] (http://groups.csail.mit.edu/vision/datasets/ADE20K/)
-[py-RFCN-priv] (https://github.com/zhzixuan/py-RFCN-priv)
+[ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
+
+[py-RFCN-priv](https://github.com/zhzixuan/py-RFCN-priv)
