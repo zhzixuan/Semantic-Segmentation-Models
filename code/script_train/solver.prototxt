@@ -1,0 +1,16 @@
+train_net: "./SAN.prototxt"
+iter_size: 1
+lr_policy: "poly"
+power: 0.9
+base_lr: 0.001 #so big？
+
+# average_loss: 20
+display: 20
+max_iter: 40000
+momentum: 0.9
+weight_decay: 0.0001
+
+snapshot: 10000
+snapshot_prefix: "./SAN_se-resnet50_ADEtrain"
+solver_mode: GPU
+
